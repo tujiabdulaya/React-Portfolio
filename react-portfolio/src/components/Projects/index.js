@@ -1,6 +1,5 @@
 import React from "react";
-import { ProjectMenu } from "./projectsMenu";
-
+import { ProjectMenu } from "./projectmenu";
 const Projects = () => {
   return (
     <div id="projects" className="">
@@ -21,7 +20,7 @@ const Projects = () => {
               >
                 <img
                   className=""
-                  src={require(`../../assets/images/small/${project.image}.jpg`)}
+                  src={require(`../../assets/images/${project.image}.jpg`)}
                   width={"70%"}
                   height={"60%"}
                   alt={project.name}
