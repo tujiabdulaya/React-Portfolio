@@ -5,10 +5,10 @@ const Projects = () => {
     <div id="projects" className="">
       <div className="container">
         <div className="mt-5 ">
-          <h2 className="text-center text-white">Projects </h2>
+          <h2 className="text-center text-white">My Projects </h2>
           <h4 className="text-center text-white">
-            Here are some of my works that i have contributed my time, skills,
-            and effort into
+            Here are some of my works that I have dedicated my time, skills,
+            and effort into.
           </h4>
         </div>
         <div className="row mt-5 ">
@@ -26,7 +26,7 @@ const Projects = () => {
                   alt={project.name}
                 ></img>
                 <div className="card-body">
-                  <p className="card-text">{project.description}</p>
+                  <p className="card-text  text-white">{project.description}</p>
                   <a href={project.url} className="btn btn-primary me-2 ms-3">
                     <i className="bi bi-link">View</i>
                   </a>
@@ -37,7 +37,7 @@ const Projects = () => {
                     <i className="bi bi-github">Github</i>
                   </a>
                 </div>
-                <div className="card-bodu">
+                <div className="card-bodu text-white">
                   <p className="w-75">{project.technology}</p>
                 </div>
               </div>

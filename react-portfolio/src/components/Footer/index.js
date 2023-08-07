@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer-length">
       <div>
         <footer className="d-flex flex-wrap justify-content-center">
-            <div className="col-md-4 justify-content-center  d-flex">
+            <div className="col-md-4 justify-content-center fs-2 d-flex">
 
           <a href="https://github.com/tujiabdulaya">
             <i className=" ms-3 bi bi-github  footer" ></i>
@@ -15,7 +15,6 @@ const Footer = () => {
 
             </i>
           </a>
-          
             </div>
         </footer>
       </div>

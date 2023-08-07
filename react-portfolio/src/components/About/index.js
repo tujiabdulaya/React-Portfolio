@@ -26,7 +26,7 @@ const Header = () => {
         </div>
 
         <div className="d-flex justify-content-center w-55">
-          <p className="d-flex text-center d-flex align-items-center w-100 row-cols-2 ">
+          <p className="d-flex text-center d-flex align-items-center w-100 row-cols-2 text-white">
             Hello my name is Tuji Abdulaya im from Minneapolis im currently a
             partime student at the moment. I am looking forward to this bootcamp
             class to gain experience and learn. I also enjoy watching and

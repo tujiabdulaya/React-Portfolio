@@ -22,7 +22,7 @@ export const ProjectMenu = [
         url:"https://drive.google.com/file/d/1FZRVtf6rE4RirnUJzRTtpVBIPQmeWRqX/view",
         github:"https://github.com/tujiabdulaya/SVG-Logo--Maker",
         image:"logo",
-        description:"",
+        description:"Use command line interface to make logos",
         technology: "Technology used: HTML, CSS, JavaScript, Node"
 
 
