@@ -1,5 +1,4 @@
 # React-Portfolio
-# Portfolio
 
 ## Description
  Portfolio created with React.js
