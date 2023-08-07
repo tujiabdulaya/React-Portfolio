@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "../../assets/images/capri.jpg";
 // import Typical from "react-typical";
 
 import "./style.css";
@@ -12,8 +12,8 @@ const Header = () => {
         loop={Infinity}
         wrapper="p"
       /> */}
-      <div className="col">
-        {/* <img className="img-fluid" src={image}></img> */}
+      <div className="col mt-5">
+        <img alt="picture of me" className="img-fluid w-25" src={image}></img>
       </div>
       <div className="d-flex justify-content-center row  about-me mt-5">
         <div>
@@ -27,10 +27,12 @@ const Header = () => {
 
         <div className="d-flex justify-content-center w-55">
           <p className="d-flex text-center d-flex align-items-center w-100 row-cols-2 text-white">
-            Hello my name is Tuji Abdulaya im from Minneapolis im currently a
-            partime student at the moment. I am looking forward to this bootcamp
-            class to gain experience and learn. I also enjoy watching and
-            playing sports. When i get a chance i aslo enjoy traving.
+            Hello my name is Tuji Abdulaya I'm from Minneapolis. A full stack
+            developer, proficient in web development. My specialties are web
+            design, full-stack web development, HTML, MongoDB, CSS, JavaScript,
+            JQuery, Bootstrap, Node, MySQL, Tailwind, Inquirer, and Express.js. I enjoy
+            watching and playing sports. When i get a chance i aslo enjoy
+            traving.
           </p>
         </div>
       </div>
